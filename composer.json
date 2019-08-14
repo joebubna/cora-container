@@ -1,0 +1,23 @@
+{
+    "name": "cora/container",
+    "description": "A dependency injection container with a focus on being useful throughout an application, not just for services.",
+    "keywords": ["injection", "dependency", "dependencies", "di", "cora", "demo", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah Bubna"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "phpunit/phpunit": "7.*",
+        "cora/autoload": "*",
+        "cora/collection": "*"
+    },
+    "config": {
+      "vendor-dir": "app/vendor"
+    },
+    "autoload": {
+      "psr-4": {"Cora\\": "app/"}
+    }
+}
