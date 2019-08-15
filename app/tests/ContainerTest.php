@@ -30,8 +30,8 @@ class ContainerTest extends TestCase
     $c->{\Classes\TestMaster::class} = function($c) {
       return new \Classes\TestMaster(
         'test',
-        $c->{\Classes\Test1::class},
-        $c->{\Classes\Test6::class}
+        $c->{\Classes\Test1::class}(),
+        $c->{\Classes\Test6::class}()
       );
     };
     $test = $c->{\Classes\TestMaster::class}();
@@ -75,8 +75,8 @@ class ContainerTest extends TestCase
     $c->singleton(\Classes\TestMaster::class, function($c, $name) {
       return new \Classes\TestMaster(
         $name,
-        $c->{\Classes\Test1::class},
-        $c->{\Classes\Test6::class}
+        $c->{\Classes\Test1::class}(),
+        $c->{\Classes\Test6::class}()
       );
     });
 
