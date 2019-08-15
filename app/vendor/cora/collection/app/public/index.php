@@ -20,3 +20,7 @@ echo "Size of the collection: ".$collection->count()."<br>";
 $subset = $collection->where('type', 'Type2');
 echo "Items of Type2: ".count($subset)."<br>";
 echo "The name of the third user: ".$subset->User3['name']."<br>";
+echo "<br><br>";
+
+echo $collection->get(0)['name']."<br>";
+echo $collection->get('User1')['name']."<br>";

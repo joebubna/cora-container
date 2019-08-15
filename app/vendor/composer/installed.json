@@ -46,31 +46,29 @@
     },
     {
         "name": "cora/collection",
-        "version": "v1.0.0",
-        "version_normalized": "1.0.0.0",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/joebubna/cora-collection.git",
-            "reference": "8d3cd0ac04d319b4d485ea129b449745fa9dfb38"
+            "reference": "ec75b08f69d2ac769a8b414bfd128f2ee63512c8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/joebubna/cora-collection/zipball/8d3cd0ac04d319b4d485ea129b449745fa9dfb38",
-            "reference": "8d3cd0ac04d319b4d485ea129b449745fa9dfb38",
+            "url": "https://api.github.com/repos/joebubna/cora-collection/zipball/ec75b08f69d2ac769a8b414bfd128f2ee63512c8",
+            "reference": "ec75b08f69d2ac769a8b414bfd128f2ee63512c8",
             "shasum": ""
         },
         "require": {
             "php": ">=5.3.0",
             "phpunit/phpunit": "7.*"
         },
-        "time": "2019-08-14T17:32:43+00:00",
+        "time": "2019-08-15T17:30:32+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Cora\\": "app/",
-                "Tests\\": "app/tests/",
-                "Classes\\": "app/classes/"
+                "Cora\\": "app/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",

@@ -17,7 +17,11 @@
   },
   "autoload": {
     "psr-4": {
-      "Cora\\": "app/",
+      "Cora\\": "app/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
       "Tests\\": "app/tests/",
       "Classes\\": "app/classes/"
     }

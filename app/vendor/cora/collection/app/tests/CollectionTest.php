@@ -17,6 +17,7 @@ class CollectionTest extends \Tests\TestCase
 
         // Check that the value can be retrieved directly via index or indirectly via offset
         $this->assertEquals('Hello World', $collection->get("off0"));   // Direct. Fast.
+        $this->assertEquals('Hello World', $collection->off0);
 
         // Check adding a number. 
         $collection->add(2);

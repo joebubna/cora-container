@@ -20,10 +20,6 @@ class ComposerStaticInit823b0774f7bb7712fc6900b064003fb9
         array (
             'Webmozart\\Assert\\' => 17,
         ),
-        'T' => 
-        array (
-            'Tests\\' => 6,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -40,7 +36,6 @@ class ComposerStaticInit823b0774f7bb7712fc6900b064003fb9
         'C' => 
         array (
             'Cora\\' => 5,
-            'Classes\\' => 8,
         ),
     );
 
@@ -54,10 +49,6 @@ class ComposerStaticInit823b0774f7bb7712fc6900b064003fb9
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
-        ),
-        'Tests\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/cora/collection/app/tests',
         ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
@@ -80,10 +71,6 @@ class ComposerStaticInit823b0774f7bb7712fc6900b064003fb9
             0 => __DIR__ . '/../../..' . '/app',
             1 => __DIR__ . '/..' . '/cora/autoload/app',
             2 => __DIR__ . '/..' . '/cora/collection/app',
-        ),
-        'Classes\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/cora/collection/app/classes',
         ),
     );
 
