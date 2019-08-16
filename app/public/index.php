@@ -20,3 +20,6 @@ $container = new \Cora\Container();
 $test = $container->{\Classes\TestMaster::class}("Jessy");
 
 echo $test->sayHi();
+
+$test1 = $container->get(\Classes\TestMaster::class, 'Jacob');
+var_dump($test1->getName());

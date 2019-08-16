@@ -12,4 +12,9 @@ class Test1 extends Test {
   {
     return 'Hi there from Classes/Test1 !!!<br>';
   }
+
+  public function verify()
+  {
+    return 3;
+  }
 }

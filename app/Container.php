@@ -85,4 +85,18 @@ class Container extends Collection
     }
     return null;
   }
+
+
+  /**
+   *  Alias of magic method __get()
+   * 
+   *  @param $name Int | String
+   *  @return Mixed
+   */
+  public function get($name)
+  {
+    $args = func_get_args();
+    array_shift($args);
+    return $this->$name(...$args);
+  }
  }

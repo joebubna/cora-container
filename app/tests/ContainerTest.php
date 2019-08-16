@@ -117,4 +117,21 @@ class ContainerTest extends TestCase
     $this->assertEquals('John', $user1->name);
     $this->assertEquals('Sarah', $user2->name);
   }
+
+
+  /**
+   *  
+   *
+   *  @test
+   */
+  public function canUsePsrGetFunctionToGrabResources()
+  {
+    $c = new \Cora\Container();
+    $test1 = $c->get(\Classes\TestMaster::class, 'Jacob');
+    $this->assertEquals('Jacob', $test1->getName());
+
+    // Do one without any arguments to make sure nothing funky
+    $test2 = $c->get(\Classes\Test1::class);
+    $this->assertEquals(3, $test2->verify());
+  }
 }
