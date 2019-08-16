@@ -388,7 +388,7 @@ Then run `./App/phpunit.sh tests/AutoloadTest` from the command line.
 ## Documentation
 
 For complete documentation please see the GitHub pages website here:
-http://joebubna.github.io/Cora/
+http://joebubna.github.io/Cora/documentation/v2/dependency-injection/overview/
 
 ## About Cora
 
