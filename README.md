@@ -76,9 +76,14 @@ $users->fetch($id);
 ### Grabbing Resources Out Format
 
 Note: In the examples you'll see in this document, we'll be using to use the format:
-`$container->{\Classes\SomeClass::class}($arg1, $arg2)` as our way of grabbing things out of the container. Alternatively, 
-if you prefer, you can use the PSR-11 format of `$container->get(\Classes\SomeClass::class, $arg1, $arg2)`. Both will throw
-an exception if the resource doesn't exist.
+```
+$container->{\Classes\SomeClass::class}($arg1, $arg2)
+``` 
+as our way of grabbing things out of the container. Alternatively, if you prefer, you can use the PSR-11 format of 
+```
+$container->get(\Classes\SomeClass::class, $arg1, $arg2)
+```
+Both will throw an exception if the resource doesn't exist.
 
 
 ### In-Class Definitions (with a more complicated example)
